@@ -1,0 +1,15 @@
+# 비밀 값 (API 키) — 절대 GitHub에 올리지 않습니다
+.env.local
+.env*.local
+.env
+
+# 의존성·빌드 결과
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+next-env.d.ts
+
+# 로그·기타
+npm-debug.log*
+.DS_Store
